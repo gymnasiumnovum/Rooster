@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     font-weight: bold;
-    background: (255, 255, 255);
+    background: (0, 0, 0);
     height: calc(100% - 10px);
 }
 html{
