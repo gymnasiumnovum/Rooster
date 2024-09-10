@@ -107,7 +107,7 @@ $(document).ready(function () {
     })
 
 
-    $("#title").text("Roosterwijzigingen Gymnasium Novum" + changesUiManager.date.toLocaleString("nl-NL", {
+    $("#title").text("Roosterwijzigingen Gymnasium Novum          " + changesUiManager.date.toLocaleString("nl-NL", {
         weekday: 'long',
         year: 'numeric',
         month: 'long',
