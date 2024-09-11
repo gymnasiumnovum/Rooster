@@ -111,7 +111,7 @@ html{
     display: grid;
     grid-auto-flow: row dense;
     grid-column: 1 / calc(var(--timeslots) + 1);
-    grid-template-columns: subgrid;
+    grid-template-columns: (subgrid - 1);
     grid-template-rows:inherit;
 
 }
