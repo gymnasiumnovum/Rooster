@@ -1,11 +1,17 @@
 body {
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    background: linear-gradient(45deg, #f7931e, #1267ad);
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    background: linear-gradient(45deg, #f7931e, #1267ad, #f7931e);
+    background-size: 200% 200%;
     height: calc(100% - 10px);
+    animation: gradientAnimation 69.42s ease infinite;
 }
+
 html{
-    height: 100%
+    height: 100%;
 }
 
 .flex {
@@ -26,14 +32,29 @@ html{
 }
 
 .content-background{
-    background-color: rgba(255,255,255,.5)
+    background-color: rgba(255,255,255,.5);
+}
+
+@keyframes gradientAnimation {
+
+    0% {
+	background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 /* Roosterwijzigingen */
 
 #content-container{
-    flex-grow:1;
-    min-height:0;
+    flex-grow: 1;
+    min-height: 0;
 }
 
 .year-content-container{
@@ -131,7 +152,7 @@ div.activity{
 div.appointment.new{
 
     background-clip: padding-box;
-    box-shadow: inset 0 0 10px #ff0000;
+    background-color: salmon;
 }
 
 /**afwezigen**/
