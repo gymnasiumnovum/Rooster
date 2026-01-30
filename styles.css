@@ -87,7 +87,7 @@ html{
 }
 
 .year-row.header{
-    max-height: 20px;
+    max-height: 25px; /*was 20, geprobeert om de cijfers van de leerjaren passend te maken in de balk */
     flex-shrink: 0;
 }
 
