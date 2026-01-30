@@ -3,7 +3,7 @@ body {
     
     font-weight: bold;
     font-style: normal;
-	font-size: clamp(16px, 1vw + 12px, 32px); /*toegevoegd voor 4k scherm*/ 
+	/*font-size: clamp(16px, 1vw + 12px, 32px); toegevoegd voor 4k scherm*/ 
     font-variation-settings: "wdth" 100;
     background: linear-gradient(45deg, #f7931e, #1267ad, #f7931e);
     background-size: 200% 200%;
@@ -87,7 +87,7 @@ html{
 }
 
 .year-row.header{
-    max-height: 25px; /*was 20, geprobeert om de cijfers van de leerjaren passend te maken in de balk */
+    max-height: 20px;
     flex-shrink: 0;
 }
 
