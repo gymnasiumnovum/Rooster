@@ -3,7 +3,7 @@ body {
     
     font-weight: bold;
     font-style: normal;
-	/*font-size: clamp(16px, 1vw + 12px, 32px); toegevoegd voor 4k scherm*/ 
+	font-size: clamp(16px, 1vw + 12px, 32px); /* toegevoegd voor 4k scherm*/ 
     font-variation-settings: "wdth" 100;
     background: linear-gradient(45deg, #f7931e, #1267ad, #f7931e);
     background-size: 200% 200%;
